@@ -4,10 +4,10 @@ while s != 'stop' and s!= 'Stop':
     strings.append(s)
     s = input()
     
-
+strings.append(s)
 short = 0
 long = 0
-if(len(strings) > 1):
+if(len(strings) > 0):
     for i in range(len(strings)):
         if len(strings[i]) > len(strings[long]):
             long = i
