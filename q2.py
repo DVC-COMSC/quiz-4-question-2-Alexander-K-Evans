@@ -1,8 +1,8 @@
 strings = []
-s = 'a'
+s = input()
 while s != 'stop' and s!= 'Stop':
-    s = input()
     strings.append(s)
+    s = input()
     
 
 short = 0
