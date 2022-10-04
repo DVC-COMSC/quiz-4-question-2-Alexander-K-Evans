@@ -1,5 +1,8 @@
 strings = []
 s = input()
+
+# From the problem definition, you should check the 'STOP'
+##########
 while s != 'stop' and s!= 'Stop':
     strings.append(s)
     s = input()
